@@ -237,18 +237,6 @@ get_header(); ?>
     </div>
 </div>
 
-<section class="test">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6"></div>
-            <div class="col-lg-6"></div>
-            <div class="col-lg-6"></div>
-            <div class="col-lg-6"></div>
-            <div class="col-lg-6"></div>
-            <div class="col-lg-6"></div>
-        </div>
-    </div>
-</section>
 
     <section class="last-news">
         <div class="container">
