@@ -97,7 +97,11 @@ get_header(); ?>
 
 <section class="pricetab">
     <div class="container">
-        <h2 class="title mb-5">СТОИМОСТЬ УСЛУГ</h2>
+        <h2 class="title mb-3">СТОИМОСТЬ УСЛУГ</h2>
+        <label class="checkbox">
+            <input type="checkbox" name="stoimost_posobie" />
+            <div class="checkbox__text">Показывать цены с учетом предоставления <a href="#">социального пособия на погребение</a></div>
+        </label>
         <div class="row">
             <div class="col-lg-7">
                 <ul class="nav nav-tabs" role="tablist">
@@ -122,7 +126,7 @@ get_header(); ?>
                                 <div class="tab-content__text">Минимальный набор товаров и услуг для похорон</div>
                             </div>
                             <div class="tab-content__price">
-                                <span>5 438</span> руб
+                                <span class="price_value" data-price="8500">8 500</span> руб
                             </div>
                         </div>
                         <div class="tab-content__list">
@@ -131,7 +135,7 @@ get_header(); ?>
                                 <div class="tab-content__text">Все нужные процедуры, товары и услуги для похорон</div>
                             </div>
                             <div class="tab-content__price">
-                                <span>19 338</span> руб
+                                <span class="price_value" data-price="13000">13 000</span> руб
                             </div>
                         </div>
                         <div class="tab-content__list">
@@ -140,7 +144,7 @@ get_header(); ?>
                                 <div class="tab-content__text">Vip похороны для особенных усопших</div>
                             </div>
                             <div class="tab-content__price">
-                                <span>41 088</span> руб
+                                <span class="price_value" data-price="41000">41 000</span> руб
                             </div>
                         </div>
                     </div>

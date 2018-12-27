@@ -146,13 +146,13 @@ get_header(); ?>
         <div class="container">
             <h2 class="title mb-4">СТОИМОСТЬ ПОХОРОН</h2>
             <label class="checkbox">
-                <input type="checkbox" name="stoimost_posobie" checked="checked" />
+                <input type="checkbox" name="stoimost_posobie" />
                 <div class="checkbox__text">Показывать цены с учетом предоставления <a href="#">социального пособия на погребение</a></div>
             </label>
             <div class="stoimost__wrap">
                 <div class="stoimost__item">
                     <div class="stoimost__name">БАЗОВЫЙ</div>
-                    <div class="stoimost__price">9 438 Р</div>
+                    <div class="stoimost__price"><span class="price_value" data-price="8500">8.500</span> Р</div>
                     <ul class="stoimost__list">
                         <li>Гроб, обитый ситцем</li>
                         <li>Крест на могилу</li>
@@ -168,7 +168,7 @@ get_header(); ?>
                 </div>
                 <div class="stoimost__item">
                     <div class="stoimost__name">ОПТИМАЛЬНЫЙ</div>
-                    <div class="stoimost__price">19 338 Р</div>
+                    <div class="stoimost__price"><span class="price_value" data-price="13000">13.000</span> Р</div>
                     <ul class="stoimost__list">
                         <li>Гроб  (бархат)</li>
                         <li>Крест</li>
@@ -189,7 +189,7 @@ get_header(); ?>
                 </div>
                 <div class="stoimost__item">
                     <div class="stoimost__name">ОСОБЫЙ</div>
-                    <div class="stoimost__price">41 088 Р</div>
+                    <div class="stoimost__price"><span class="price_value" data-price="41000">41.000</span> Р</div>
                     <ul class="stoimost__list">
                         <li>Гроб лакированный</li>
                         <li>Крест</li>

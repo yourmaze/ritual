@@ -108,7 +108,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i></button>
             </div>
             <div class="modal-body">
-                <?php echo do_shortcode('[contact-form-7 id="12" title="Модальное окно"]'); ?>
+                <?php echo do_shortcode('[contact-form-7 id="75" title="Модальное окно"]'); ?>
             </div>
         </div>
     </div>
